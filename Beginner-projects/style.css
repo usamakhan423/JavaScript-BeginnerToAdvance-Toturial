@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section .container {
+    max-width: 800px;
+    min-height: 100px;
+    background-color: rgb(176, 31, 108);
+    margin: auto;
+    margin-top: 100px;
+    padding: 2rem 1rem;
+
+}
+section .container .inputSection input {
+    width: 80%;
+    background-color: rgb(228, 234, 234);
+    padding: 1rem 1rem;
+    border-radius: 10px;
+    border: nones;
+    font-size: 14px;
+    font-weight: 500;
+    outline: none;
+}
+section .container .inputSection .btn-primary {
+    padding: 1rem .5rem;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    /* width: 50px; */
+    width: 15%;
+    background-color: rgb(16, 168, 171);
+    color: #fff;
+    text-shadow: 1px 1px 1px rgb(254, 39, 157);
+    font-weight: 600;
+    font-size: 12px;
+    margin-left: 1rem;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+section .container .tasks {
+    margin-top:2rem;
+    display: flex;
+
+}
+section .container .tasks p {
+    width: 80%;
+    background-color: rgb(228, 234, 234);
+    padding: 2rem 1rem;
+    border-radius: 10px;
+    border: nones;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+section .container .tasks .btn-danger {
+    padding: 1rem .5rem;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    /* width: 50px; */
+    width: 15%;
+    background-color: rgb(250, 5, 58);
+    color: #fff;
+    text-shadow: 1px 1px 1px rgb(254, 39, 157);
+    font-weight: 600;
+    font-size: 12px;
+    margin-left: 1rem;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
